@@ -1,0 +1,3 @@
+[submodule "polemoves"]
+	path = polemoves
+	url = git@github.com:justinsowhat/polemoves.git
