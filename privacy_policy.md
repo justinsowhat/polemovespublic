@@ -8,6 +8,7 @@ This Privacy Policy describes how Pole Moves ("we", "us", or "our") handles pers
 - iCloud Backup: If you choose to use iCloud for backup, Pole Moves does not collect any user data. Your backup data is securely stored in your personal iCloud account.
 - Google Drive Backup: If you opt to use Google Drive for backup, Pole Moves will request API permission to read and write data to your Google Drive AppData directory only. Your backup data is solely stored in your Google Drive account, and Pole Moves does not collect or store this data.
 - Aggregated Usage Data: We use Firebase, a third-party service, which may collect aggregated user usage data. This data is not linked to individual users and is used for analyzing overall app performance and usage patterns.
+- Anonymous Feedback: Users may submit anonymous feedback through the app. No personal data is collected during this process.
 
 ## Information Sharing and Disclosure
 
