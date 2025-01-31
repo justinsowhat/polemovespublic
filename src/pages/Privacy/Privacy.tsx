@@ -1,30 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Privacy Policy - Pole Moves App</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <nav class="navbar">
-      <a href="index.html" class="logo">
-        <img src="assets/logo.PNG" alt="Pole Moves App Logo" />
-      </a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="privacy.html">Privacy</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-
-    <section class="section">
-      <div class="container">
+export const Privacy = () => {
+  return (
+    <section className="section">
+      <div className="container">
         <h1>Privacy Policy</h1>
         <p>Last updated: 15 November 2024</p>
         <br />
@@ -45,7 +22,7 @@
         <br />
 
         <h2>Information We Collect</h2>
-        <ul style="padding-left: 2em">
+        <ul style={{ paddingLeft: "2em" }}>
           <li>
             Error Logs and Crash Reports: We collect error logs and crash
             reports to help us identify and fix issues with the app. This
@@ -120,16 +97,13 @@
           at
           <a href="mailto:impolester.app@gmail.com">impolester.app@gmail.com</a>
           or send us a message on Instagram
-          <a href="https://www.instagram.com/polemovesapp" target="_blank"
-            >@polemovesapp</a
-          >.
+          <a href="https://www.instagram.com/polemovesapp" target="_blank">
+            @polemovesapp
+          </a>
+          .
         </p>
         <br />
       </div>
     </section>
-
-    <footer>
-      <p>&copy; 2024-2025 Impolester LLC. All rights reserved.</p>
-    </footer>
-  </body>
-</html>
+  );
+};
