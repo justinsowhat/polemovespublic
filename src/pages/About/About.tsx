@@ -1,30 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About - Pole Moves App</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <nav class="navbar">
-      <a href="index.html" class="logo">
-        <img src="assets/logo.PNG" alt="Pole Moves App Logo" />
-      </a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="privacy.html">Privacy</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-
-    <section class="section">
-      <div class="container">
+export const About = () => {
+  return (
+    <section className="section">
+      <div className="container">
         <h1>About Me</h1>
         <p>
           As a pole dancer, I've always wanted an app to track my progress and
@@ -53,9 +30,5 @@
         </p>
       </div>
     </section>
-
-    <footer>
-      <p>&copy; 2024 Pole Moves App. All rights reserved.</p>
-    </footer>
-  </body>
-</html>
+  );
+};
