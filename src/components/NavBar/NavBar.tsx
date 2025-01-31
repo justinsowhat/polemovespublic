@@ -4,7 +4,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="logo">
-        <img src="src/assets/logo.PNG" alt="Pole Moves App Logo" />
+        <img src="assets/logo.PNG" alt="Pole Moves App Logo" />
       </Link>
       <ul className="nav-links">
         <li>

@@ -11,12 +11,12 @@ export const Home = () => {
         </p>
         <div className="cta-buttons">
           <ImageButton
-            imageUrl="src/assets/apple_app.jpg"
+            imageUrl="assets/apple_app.jpg"
             link="https://apps.apple.com/app/pole-moves/id123456789"
           />
 
           <ImageButton
-            imageUrl="src/assets/google_play.png"
+            imageUrl="assets/google_play.png"
             link="https://play.google.com/store/apps/details?id=com.polemoves"
           />
         </div>
